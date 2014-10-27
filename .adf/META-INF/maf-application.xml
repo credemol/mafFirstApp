@@ -6,4 +6,9 @@
   <adfmf:deviceFeatureAccess>
     <adfmf:deviceNetwork access="true" id="dn1"/>
   </adfmf:deviceFeatureAccess>
+  <adfmf:featureReference id="training.maf.jdev.firstapp.AMX"/>
+  <adfmf:featureReference id="training.maf.jdev.firstapp.TaskFlow"/>
+  <adfmf:featureReference id="training.maf.jdev.firstapp.LocalHTML"/>
+  <adfmf:featureReference id="training.maf.jdev.firstapp.RemoteHTML"/>
+  <adfmf:remoteURLWhiteList/>
 </adfmf:application>

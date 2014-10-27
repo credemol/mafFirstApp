@@ -31,6 +31,9 @@
    <hash n="oracle.jdeveloper.deploy.dt.DeploymentProfiles">
       <hash n="profileDefinitions">
          <hash n="Android1">
+            <hash n="android_options">
+               <value n="android_deploy_debug_mode" v="false"/>
+            </hash>
             <hash n="archiveOptions">
                <value n="hasManifest" v="true"/>
             </hash>
@@ -114,6 +117,9 @@
                   </hash>
                </list>
             </hash>
+            <hash n="iosDeploymentOptions">
+               <value n="debugFlag" v="false"/>
+            </hash>
             <url n="jarURL" path="deploy/iOS1/iOS1.jar/"/>
             <value n="profileClass" v="oracle.adfmf.framework.dt.deploy.ios.McIosFrameworkProfile"/>
             <value n="profileName" v="iOS1"/>
@@ -154,9 +160,9 @@
          </hash>
       </hash>
       <list n="profileList">
-         <string v="mafFirstApp_archive"/>
-         <string v="iOS1"/>
          <string v="Android1"/>
+         <string v="iOS1"/>
+         <string v="mafFirstApp_archive"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
@@ -174,7 +180,9 @@
             </hash>
             <hash/>
          </list>
-         <list n="url-path"/>
+         <list n="url-path">
+            <url path="src/"/>
+         </list>
       </hash>
    </hash>
    <hash n="ResourceBundleOptions">

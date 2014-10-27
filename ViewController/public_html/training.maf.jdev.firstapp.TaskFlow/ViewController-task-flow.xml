@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfc-mobile-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.0">
+  <task-flow-definition id="ViewController-task-flow">
+    <default-activity>TaskFlow-Helloworld</default-activity>
+    <view id="TaskFlow-Helloworld">
+      <page>/training.maf.jdev.firstapp.TaskFlow/TaskFlow-Helloworld.amx</page>
+    </view>
+  </task-flow-definition>
+</adfc-mobile-config>
